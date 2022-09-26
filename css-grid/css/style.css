@@ -80,16 +80,9 @@ nav{
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
-
-main article{
-    /*endret vidde bredde fra hva vi gjorde 05.08*/
-    flex-basis: 250px;
-=======
 main article{
     /*endret vidde bredde fra hva vi gjorde 05.08*/
     flex-basis:250px;
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
     flex-grow: 1;
     border: 1px solid #d9d9d9;
     padding: 1rem;
@@ -115,9 +108,7 @@ main article{
 }
 /*legge til en active-page id på meny punktet som er landingssiden*/
 
-#active{
 
-}
 /*for å få det under til å funke så må du sette en klasse som du kaller "button" på <a> som ligger i artikklene*/
 .button {
     display: inline-block;
@@ -151,10 +142,6 @@ footer{
     padding: 3rem 2rem;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 .fa-solid.fa-house{
     font-size: 30px;
     color: #a53f55;
@@ -162,14 +149,11 @@ footer{
 }
 
 
-<<<<<<< HEAD
-=======
 .fa-solid.fa-house:hover{
     color: black;
 }
 
 
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 @media only screen and (min-width: 900px){
     #front-page-container{
         width: 100%;
@@ -184,14 +168,6 @@ footer{
     
     }
 
-<<<<<<< HEAD
-    #main-menu{
-        display:block !important;
-        position: static;
-        background-color: transparent;
-        width: fit-content;
-    }
-=======
     header nav{
         display: flex;
         align-items: baseline;
@@ -203,19 +179,10 @@ footer{
         background-color: transparent;
         width: fit-content;
     } 
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 
     #main-menu a{
         color: #000;
     }
-<<<<<<< HEAD
-    header nav {
-        display: flex;
-        align-items:baseline ;
-        justify-content: space-between;
-    }
-=======
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 
     #main-menu li{
         display: inline-block;
@@ -223,11 +190,7 @@ footer{
     }
 
     #ham-icon{
-<<<<<<< HEAD
-        display:none;
-=======
         display: none;
->>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
     }
 }
 
