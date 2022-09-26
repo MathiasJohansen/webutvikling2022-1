@@ -26,10 +26,10 @@ header{
 
 #main-menu{
     position: absolute;
-    top: 126px;
-    left: 0;
+    top:125px;
+    left:0;
+    background-color: #2f2f2f;
     width: 100%;
-    background-color:#2f2f2f;
     padding: 1rem;
 }
 
@@ -38,12 +38,14 @@ header{
     
 }
 
-#main-menu a {
+#main-menu a{
     color: #fff;
     padding: 1rem 0;
     display: inline-block;
-    font-size: 1.125rem;
+    font-size: 1.3rem;
+
 }
+
 main{
     grid-area: main;
     display: flex;
@@ -73,12 +75,21 @@ nav{
     overflow: auto;
     background-color: #d2dfe1;
     padding: 2rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
+<<<<<<< HEAD
 
 main article{
     /*endret vidde bredde fra hva vi gjorde 05.08*/
     flex-basis: 250px;
+=======
+main article{
+    /*endret vidde bredde fra hva vi gjorde 05.08*/
+    flex-basis:250px;
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
     flex-grow: 1;
     border: 1px solid #d9d9d9;
     padding: 1rem;
@@ -89,7 +100,6 @@ main article{
     padding: 0;
     margin: 0;
 }
-
 
 
 #breadcrumbs li::after{
@@ -135,13 +145,16 @@ article img{
     width: 100%;
 }
 
-
 footer{
     background-color: rgb(80, 80, 80);
     color: #fff;
     padding: 3rem 2rem;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 .fa-solid.fa-house{
     font-size: 30px;
     color: #a53f55;
@@ -149,6 +162,14 @@ footer{
 }
 
 
+<<<<<<< HEAD
+=======
+.fa-solid.fa-house:hover{
+    color: black;
+}
+
+
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 @media only screen and (min-width: 900px){
     #front-page-container{
         width: 100%;
@@ -163,21 +184,38 @@ footer{
     
     }
 
+<<<<<<< HEAD
     #main-menu{
         display:block !important;
         position: static;
         background-color: transparent;
         width: fit-content;
     }
+=======
+    header nav{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    #main-menu{
+        display: block !important;
+        position: static;
+        background-color: transparent;
+        width: fit-content;
+    } 
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 
     #main-menu a{
         color: #000;
     }
+<<<<<<< HEAD
     header nav {
         display: flex;
         align-items:baseline ;
         justify-content: space-between;
     }
+=======
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
 
     #main-menu li{
         display: inline-block;
@@ -185,7 +223,11 @@ footer{
     }
 
     #ham-icon{
+<<<<<<< HEAD
         display:none;
+=======
+        display: none;
+>>>>>>> 2a0304960846b1fdd71d49d66206d4cb5b0fa8f2
     }
 }
 
