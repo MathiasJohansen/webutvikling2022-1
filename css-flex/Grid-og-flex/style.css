@@ -55,7 +55,7 @@ main{
     gap:1rem;
 }
 
-main article{
+main section article{
     flex-grow: 1;
     flex-basis: 30%;
 }
