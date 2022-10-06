@@ -108,9 +108,7 @@ main article{
 }
 /*legge til en active-page id på meny punktet som er landingssiden*/
 
-#active{
 
-}
 /*for å få det under til å funke så må du sette en klasse som du kaller "button" på <a> som ligger i artikklene*/
 .button {
     display: inline-block;
@@ -143,7 +141,6 @@ footer{
     color: #fff;
     padding: 3rem 2rem;
 }
-
 
 .fa-solid.fa-house{
     font-size: 30px;
